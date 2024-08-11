@@ -1,0 +1,15 @@
+dependencies:
+  espressif/esp32-camera:
+    component_hash: null
+    source:
+      path: /home/dwade/esp32-dev/esp32-camera
+      type: local
+    version: '*'
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.0
+manifest_hash: 82ee72b6e8a4b36cde198eb81d3d9d851fa0d675d3113b73db15dfc764a95454
+target: esp32
+version: 1.0.0
