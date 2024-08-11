@@ -1,4 +1,10 @@
 dependencies:
   espressif/esp32-camera:
     version: "*"
-  
+
+    #overide paths are only used when an espressive example is pulled out of the expressive git tree
+    #overide path will cause the build to look up in the espressive tree for support
+    #overide path is not needed when the example is pulled out of the espressive git tree.
+    #
+    #https://docs.espressif.com/projects/idf-component-manager/en/latest/guides/packaging_components.html
+    #override_path: "../.."
